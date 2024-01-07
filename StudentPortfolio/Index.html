@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Student Portfolio</title>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1 id="studentName">Student Name</h1>
+            <p id="studentMajor">Computer Science Major</p>
+        </div>
+    </header>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p id="aboutText">
+                Hello! I am a passionate computer science student with a keen interest in web development.
+                This is my portfolio showcasing my projects, skills, and experiences.
+            </p>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project" onclick="toggleProjectDescription()">
+                <h3>Project 1</h3>
+                <p id="projectDescription">Click to see project details.</p>
+            </div>
+            <!-- Add more projects as needed -->
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <ul id="skillsList">
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript</li>
+                <!-- Add more skills as needed -->
+            </ul>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Information</h2>
+            <p>Email: <span id="email">student@example.com</span></p>
+            <p>LinkedIn: <span id="linkedin">linkedin.com/in/student</span></p>
+            <!-- Add more contact information as needed -->
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Student Portfolio</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
